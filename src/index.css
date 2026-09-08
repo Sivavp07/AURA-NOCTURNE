@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-obsidian: #090314;
+    --bg-surface: #120724;
+    --bg-card: rgba(22, 9, 43, 0.65);
+    --amethyst-primary: #c084fc;
+    --amethyst-light: #e9d5ff;
+    --amethyst-muted: #9333ea;
+    --gold-primary: #eed9b3;
+    --gold-light: #fdf6e7;
+    --gold-muted: #b89358;
+    --border-purple: rgba(192, 132, 252, 0.22);
+  }
+
+  body {
+    background-color: #080212;
+    color: #f3e8ff;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow-x: hidden;
+    letter-spacing: -0.01em;
+  }
+
+  h1, h2, h3, .font-cinzel {
+    font-family: 'Cinzel', serif;
+    letter-spacing: 0.05em;
+  }
+
+  .font-serif-luxury {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+/* Haute Parfumerie Smoked Amethyst Glass */
+.glass-amethyst {
+  background: rgba(19, 8, 38, 0.62);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(192, 132, 252, 0.2);
+}
+
+.glass-amethyst-hover:hover {
+  border-color: rgba(192, 132, 252, 0.45);
+  box-shadow: 0 0 30px rgba(168, 85, 247, 0.18);
+}
+
+.purple-dream-glow {
+  box-shadow: 0 0 40px rgba(168, 85, 247, 0.25);
+}
+
+.amethyst-text-glow {
+  text-shadow: 0 0 20px rgba(192, 132, 252, 0.45);
+}
+
+.gold-champagne-glow {
+  text-shadow: 0 0 15px rgba(238, 217, 179, 0.4);
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #080212;
+}
+::-webkit-scrollbar-thumb {
+  background: #331358;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a855f7;
+}
+

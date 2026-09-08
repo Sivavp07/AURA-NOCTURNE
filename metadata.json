@@ -1,0 +1,6 @@
+{
+  "name": "AURA NOCTURNE | Haute Parfumerie",
+  "description": "A $100,000 luxury perfume experience featuring cinematic video continuity, interactive 3D crystal flacon, olfactory pyramid note explorer, bespoke scent finder, and white-glove checkout.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
